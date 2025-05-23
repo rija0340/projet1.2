@@ -1,0 +1,65 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+# See https://github.com/github/gitignore/blob/main/Symfony.gitignore 
+# Also includes some general PHP ignores
+
+# Symfony specific
+/var/
+/vendor/
+/bin/
+/public/bundles/
+/public/build/
+
+# Env files
+.env.local
+.env.test
+.env.local.php
+.env.*.local
+/.env
+
+# Composer
+/composer.phar
+composer.lock
+
+# Logs and cache
+*.log
+*.cache
+
+# IDE / OS
+/.idea/
+/.vscode/
+/.DS_Store
+*.swp
+*~
+Thumbs.db
+
+# PHPStorm
+/.phpstorm.meta.php
+
+# Node.js
+/node_modules/
+/npm-debug.log
+/package-lock.json
+
+# Misc.
+/uploads/
+/cache/
+/session/
