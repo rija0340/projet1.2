@@ -4,9 +4,11 @@ namespace App\Entity;
 
 use App\Repository\MembreRepository;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Core\Annotation\ApiResource;
 
 /**
  * @ORM\Entity(repositoryClass=MembreRepository::class)
+ *  @ApiResource
  */
 class Membre
 {

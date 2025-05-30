@@ -4,9 +4,11 @@ namespace App\Entity;
 
 use App\Repository\RegistreRepository;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Core\Annotation\ApiResource;
 
 /**
  * @ORM\Entity(repositoryClass=RegistreRepository::class)
+  @ApiResource
  */
 class Registre
 {
